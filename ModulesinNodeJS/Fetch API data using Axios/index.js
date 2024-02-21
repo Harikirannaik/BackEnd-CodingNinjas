@@ -12,7 +12,9 @@ const Solution = async () => {
   } catch (error) {
     console.log("Error in fetching", error.message);
   }
-
+const print = async() =>{ 
+  console.log("Hi");
+};
 };
 Solution();
 module.exports = Solution;
